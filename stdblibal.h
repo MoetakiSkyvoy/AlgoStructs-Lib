@@ -1,4 +1,5 @@
 // stdblibal.h - Standard Base Library for AlgoStructs-Lib
+
 // ----- This header file is used for calls to the AlgoStructs-Lib project. -----
 // ----- 本头文件适用于AlgoStructs-Lib项目的调用。 -----
 
@@ -15,4 +16,4 @@
 #define FALSE 0
 #define INFEASIBLE -1
 #define OVERFLOW -2
-typedef int Status;
+typedef int Status; // 状态代码的自定义类型
