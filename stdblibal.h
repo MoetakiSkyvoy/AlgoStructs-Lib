@@ -1,3 +1,6 @@
+#ifndef STDBLIBAL_H
+#define STDBLIBAL_H
+
 // stdblibal.h - Standard Base Library for AlgoStructs-Lib
 
 // ----- This header file is used for calls to the AlgoStructs-Lib project. -----
@@ -17,3 +20,5 @@
 #define INFEASIBLE -1
 #define OVERFLOW -2
 typedef int Status; // 状态代码的自定义类型
+
+#endif
